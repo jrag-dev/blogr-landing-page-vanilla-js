@@ -1,0 +1,48 @@
+.design {
+	--padding-container: 100px 0 230px 0;
+}
+
+	.design__title {
+	font-size: 2.5rem;
+}
+
+	.design__figure {
+	grid-column: 2 / -1;
+	margin-right: 1rem;
+}
+
+	.design__img {
+	width: 100%;
+}
+
+	.design__container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	place-items: center;
+	text-align: start;
+	gap: 1rem;
+}
+
+	.design__texts {
+	grid-row: 1/2;
+	grid-column: 1/2;
+	display: grid;
+	place-items: center;
+	text-align: start;
+	gap: 2rem;
+	padding: 1rem;
+	width: 90%;
+}
+
+	.design__subtitle {
+	text-align: start;
+	padding: 1rem 0;
+	color: var(--dark-blue-headings);
+}
+
+	.design__paragraph {
+	line-height: 1.6;
+	color: var(--dark-blue-headings);
+	opacity: .7;
+}
